@@ -171,7 +171,7 @@ namespace sharepoint_graph
             //string body = ""
             //string body = " { \"requests\": [ { \"url\": \" /\", \"method\": \"GET\", \"id\": \"1\" }, { \"url\": \" / me / messages ?$filter = importance eq 'high' &$select = from,subject,receivedDateTime,bodyPreview\", \"method\": \"GET\", \"id\": \"2\" }, { \"url\": \" / me / events\", \"method\": \"GET\", \"id\": \"3\" } ] } ";
             //string bodys = "{\"requests\": [{\"url\": \"/me?$select=displayName,jobTitle,userPrincipalName\",\"method\": \"GET\",\"id\": \"1\"},{\"url\": \"/me/messages?$filter=importance eq \'high\'&$select=from,subject,receivedDateTime,bodyPreview\",\"method\": \"GET\",\"id\": \"2\"},{\"url\": \"/me/events\",\"method\": \"GET\",\"id\": \"3\"}]}";
-            string bodys = "";
+            string bodys = " ";
 
             //string callResult = "done";
             try
